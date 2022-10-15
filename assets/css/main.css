@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+ display: none;
+    box-shadow: 0px 0px 15px 5px gray;
+    background-color: white;
+
+}
+.picture{
+    width: 70%;
+    margin: auto;
+}
+.icon-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.inside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+h3{
+    color: blueviolet;
+    font-family: monospace;
+}
+img{
+    width: 100%;
+}
+.second-style{
+    display: block;
+}
